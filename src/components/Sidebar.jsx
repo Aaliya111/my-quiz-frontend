@@ -28,7 +28,7 @@ import {
 import questionsData from "../assets/dummydata";
 import { sidebarStyles } from "../assets/dummyStyles";
 
-const API_BASE = "https://myquizproject.onrender.com";
+const API_BASE = "https://my-quiz-project-1.onrender.com";
 
 const Sidebar = () => {
   const [selectedTech, setSelectedTech] = useState(null);

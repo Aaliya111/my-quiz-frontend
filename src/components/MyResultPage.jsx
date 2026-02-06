@@ -15,7 +15,7 @@ const Badge = ({ percent }) => {
 };
 
 export default function MyResultPage({
-  apiBase = "https://myquizproject.onrender.com",
+  apiBase = "https://my-quiz-project-1.onrender.com",
 }) {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(true);
